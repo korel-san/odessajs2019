@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
-const config = require('config.json');
+const config = require('./config.json');
 
 require('./ascii-art.js');
 require('./ascii-art.js');
